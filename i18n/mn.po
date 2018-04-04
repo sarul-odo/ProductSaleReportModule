@@ -1,0 +1,372 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* gp_product_sale_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-22 02:48+0000\n"
+"PO-Revision-Date: 2018-02-22 02:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_compare_product_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_product_sale_report
+msgid "Cancel"
+msgstr "Цуцлах"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_sale_order_line_card_payment
+msgid "Card payment"
+msgstr "Card payment"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_sale_order_line_cash_payment
+msgid "Cash payment"
+msgstr "Cash payment"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_product_category
+msgid "Category"
+msgstr "Ангилал"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:159
+#, python-format
+msgid "Category: "
+msgstr "Ангилалаар шүүв: "
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.report_excel_output_view_form
+msgid "Close"
+msgstr "Хаах"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_product_default_code_integer
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_template_default_code_integer
+msgid "Code"
+msgstr "Код"
+
+#. module: gp_product_sale_report
+#: model:ir.actions.act_window,name:gp_product_sale_report.action_compare_product_report
+#: model:ir.ui.menu,name:gp_product_sale_report.menu_compare_product_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_compare_product_report
+msgid "Compare product"
+msgstr "Харьцуулсан тайлан"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_stock_warehouse_compare
+msgid "Compare warehouse"
+msgstr "Харьцуулах агуулах"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_create_uid
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_create_uid
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_create_date
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_create_date
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:498
+#, python-format
+msgid "Daily Sale Quantity: "
+msgstr "Тухайн өдөр зарсан бараа - :"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:497
+#, python-format
+msgid "Daily Sale: "
+msgstr "Тухайн өдрийн орлого, ₮: "
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:500
+#, python-format
+msgid "Daily warehouse in: "
+msgstr "Тухайн өдөр агуулахаас + :"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:499
+#, python-format
+msgid "Daily warehouse out: "
+msgstr "Тухайн өдрийн буцаалт - :"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_date_from
+msgid "Date from"
+msgstr "Эхлэх огноо"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_date_until
+msgid "Date until"
+msgstr "Дуусах огноо"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_stock_inventory_line_default_code_integer
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_stock_move_default_code_integer
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_stock_quant_default_code_integer
+msgid "Default code"
+msgstr "Default code"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:144
+#, python-format
+msgid "Detail"
+msgstr "Дэлгэрэнгүй"
+
+#. module: gp_product_sale_report
+#: model:res.groups,name:gp_product_sale_report.group_discount_manager
+msgid "Discount manager"
+msgstr "Discount manager"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_display_name
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_display_name
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_display_name
+msgid "Display Name"
+msgstr "Дэлгэцийн Нэр"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_compare_product_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_product_sale_report
+msgid "Export"
+msgstr "Экспорт"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_filedata
+msgid "File data"
+msgstr "File data"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_filename
+msgid "File name"
+msgstr "File name"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:162
+#, python-format
+msgid "Filtered by product "
+msgstr "Бараагаар шүүв "
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_id
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_id
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_id
+msgid "ID"
+msgstr "ID"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_picking_gppr_form
+msgid "Insert products"
+msgstr "Insert products"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_stock_inventory_line
+msgid "Inventory Line"
+msgstr "Тооллогын мөр"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product___last_update
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report___last_update
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend___last_update
+msgid "Last Modified on"
+msgstr "Сүүлийн засвар хийсэн огноо"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_write_uid
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_write_uid
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_write_date
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_write_date
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_report_excel_output_extend_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_product_main_price
+msgid "Main price"
+msgstr "Main price"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_stock_picking_product_template
+msgid "Main product"
+msgstr "Main product"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:144
+#, python-format
+msgid "Non exist product"
+msgstr "Байхгүй бараа"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.report_excel_output_view_form
+msgid "Processing done"
+msgstr "Тайлан бэлдэх процесс дууссан"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:144
+#, python-format
+msgid "Product"
+msgstr "Бараа"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:495
+#, python-format
+msgid "Product Quintity: "
+msgstr "Барааны тоо хэмжээ "
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_product_template
+msgid "Product Template"
+msgstr "Барааны үлгэр"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:134
+#, python-format
+msgid "Product compare report"
+msgstr "Product compare report"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:289
+#: model:ir.actions.act_window,name:gp_product_sale_report.action_product_sale_report
+#: model:ir.ui.menu,name:gp_product_sale_report.menu_product_sale_report
+#, python-format
+msgid "Product sale report"
+msgstr "Борлуулалтын дэлгэрэнгүй тайлан"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_product_template
+msgid "Product template"
+msgstr "Бараа"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:144
+#, python-format
+msgid "Quant"
+msgstr "Тоо хэмжээ"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_stock_quant
+msgid "Quants"
+msgstr "Тоо бүртгэлүүд"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.report_excel_output_view_form
+msgid "Report Output"
+msgstr "Тайлан татах үйлдэл"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/report/report_excel_output.py:30
+#, python-format
+msgid "Report Result"
+msgstr "Тайлангийн үр дүн"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_product_sale_report
+msgid "Report product sale"
+msgstr "Борлуулалтын дэлгэрэнгүй тайлан"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_sale_order
+msgid "Sales Order"
+msgstr "Борлуулалтын захиалга"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Борлуулалтын Захиалгын Мөр"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_show_cost
+msgid "Show cost"
+msgstr "Show cost"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:144
+#, python-format
+msgid "Sizes"
+msgstr "Размер"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_stock_move
+msgid "Stock Move"
+msgstr "Нөөцийн хөдөлгөөн"
+
+#. module: gp_product_sale_report
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_product_sale_report_stock_warehouse
+msgid "Stock warehouse"
+msgstr "Салбар"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/product_sale_report.py:526
+#, python-format
+msgid "Total: "
+msgstr "Нийт: "
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_stock_picking
+msgid "Transfer"
+msgstr "Шилжүүлэх"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:166
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_cash_warehouse
+#: model:ir.model.fields,field_description:gp_product_sale_report.field_compare_product_stock_warehouse
+#, python-format
+msgid "Warehouse"
+msgstr "Агуулах"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/wizard/compare_report.py:167
+#, python-format
+msgid "Warehouse compared"
+msgstr "Харьцуулсан агуулах"
+
+#. module: gp_product_sale_report
+#: code:addons/gp_product_sale_report/model/sale_order_line.py:33
+#, python-format
+msgid "You cannot create card and cash payment with 0!"
+msgstr "You cannot create card and cash payment with 0!"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_cash
+msgid "cash"
+msgstr "Касс"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_compare_product
+msgid "compare.product"
+msgstr "compare.product"
+
+#. module: gp_product_sale_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_compare_product_report
+#: model:ir.ui.view,arch_db:gp_product_sale_report.view_product_sale_report
+msgid "or"
+msgstr "эсвэл"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_product_sale_report
+msgid "product.sale.report"
+msgstr "Борлуулалтын дэлгэрэнгүй тайлан"
+
+#. module: gp_product_sale_report
+#: model:ir.model,name:gp_product_sale_report.model_report_excel_output_extend
+msgid "report.excel.output.extend"
+msgstr "report.excel.output.extend"
+
